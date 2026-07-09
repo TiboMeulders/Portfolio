@@ -12,6 +12,7 @@ next-env.d.ts
 
 # production / deployment
 /.vercel
+/.wrangler
 
 # environment variables
 .env

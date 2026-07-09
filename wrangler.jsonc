@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio",
+  "compatibility_date": "2025-01-01",
+  // Static export from Next.js (`next build` with output: "export").
+  // No Worker script — Cloudflare serves the ./out folder as static assets.
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
